@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <script type="module">
+        import {Hello, Product} from '../library/index.js';
+        document.getElementById("h1-id").innerHTML = Hello();
+        let obj= new Product;
+        obj.Print();
+    </script>
 </head>
 <body>
     <h2>Index page</h2>
+    <h1 id="h1-id"></h1>
     <a href="home.html">Home</a>
     <a href="home1.html">Home 1</a>
 </body>
