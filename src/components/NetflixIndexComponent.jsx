@@ -13,12 +13,14 @@ export default function NetflixIndexComponent()
             </header>
             <section >
                 <main>
+                    
                     <NetflixMainComponent/>
                     <NetflixRegisterComponent/>
                 </main>
             </section>
             <footer className='m-2 p-2'>
                 <NetflixFooterComponent/>
+                
             </footer>
            </div>
         </div>
