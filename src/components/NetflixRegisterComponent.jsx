@@ -1,8 +1,8 @@
 export function NetflixRegisterComponent()
 {
     return(
-       <div className="container-fluid text-center mt-3 bg-dark p-3 text-white w-100">
-         <p>Ready to watch? Enter your email to create or restart your membership.</p>
+       <div className="container-fluid text-center text-white w-50 ">
+         <p className="text-center">Ready to watch? Enter your email to create or restart your membership.</p>
          <div className="input-group input-group-lg">
             <input type="email" className="form-control" />
             <button className="btn btn-danger">

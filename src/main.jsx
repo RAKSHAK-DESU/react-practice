@@ -5,11 +5,11 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.json'
 import App from './App.jsx'
 import { NetflixRegisterComponent } from './components/NetflixRegisterComponent.jsx'
-import { FormComponent } from './components/FormComponent.jsx'
+import {NetflixHeaderComponent } from './components/NetflixHeaderComponent.jsx.jsx'
+import NetflixIndexComponent from './components/NetflixIndexComponent.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <NetflixRegisterComponent/>
-    <App />
-    <FormComponent/>
+   <NetflixIndexComponent/>
   </StrictMode>,
 )

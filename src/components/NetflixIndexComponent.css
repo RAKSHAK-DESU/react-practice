@@ -1,0 +1,16 @@
+.contianer-fluid{
+    background-image:url("../assets/focus.jpg");
+    background-size:contain;
+    color:white;
+    height:50vmax;
+    width:93vmax;
+}
+.box{
+    background-color:rgba(0,0,0,0.6);
+    height:50vmax;
+    width:93vmax;
+}
+section{
+    height: 400px;
+    
+}
