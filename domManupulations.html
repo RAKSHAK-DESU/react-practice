@@ -1,0 +1,18 @@
+<head>
+    <script>
+        var categories=["All","Electronics","Footwear"];
+        function bodyload(){
+            for (var item of categories) {
+                var li= document.createElement("li");           //Create a list item
+                li.innerHTML= item;                             //Assign data to list item
+                document.querySelector("ol").appendChild(li);   //Add this list item to ordered list
+                
+            }
+        }
+    </script>
+</head>
+<body onload="bodyload()">
+    <ol>
+
+    </ol>
+</body>

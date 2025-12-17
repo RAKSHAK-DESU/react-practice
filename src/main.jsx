@@ -7,9 +7,12 @@ import App from './App.jsx'
 import { NetflixRegisterComponent } from './components/NetflixRegisterComponent.jsx'
 import {NetflixHeaderComponent } from './components/NetflixHeaderComponent.jsx.jsx'
 import NetflixIndexComponent from './components/NetflixIndexComponent.jsx'
-
+import DataBindingComponent from './components/DataBindingComponent.jsx'
+import BindingArrayCollectionComponent from './components/BindingArrayCollectionComponents.jsx'
+import OneWayBindingComponent from './components/OneWayBindingComponent.jsx'
+import NestedIterationArrayComponent from './components/NestedIterationArrayComponent.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <NetflixIndexComponent/>
+      <OneWayBindingComponent/>
   </StrictMode>,
 )
