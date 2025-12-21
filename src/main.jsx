@@ -13,8 +13,9 @@ import OneWayBindingComponent from './components/OneWayBindingComponent.jsx'
 import NestedIterationArrayComponent from './components/NestedIterationArrayComponent.jsx'
 import UseStateComponent from './components/UseStateComponent.jsx'
 import DataBindingComponentNASAApi from './components/DataBindingComponentNASAApi.jsx'
+import ShoppingComponent from './components/ShoppingComponent.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-      <DataBindingComponentNASAApi/>
+      <ShoppingComponent/>
   </StrictMode>,
 )
